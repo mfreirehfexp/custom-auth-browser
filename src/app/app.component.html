@@ -1,0 +1,16 @@
+<h1>
+  {{title}}
+</h1>
+<form>
+  <p>
+    <input type="email" id="mail" required [(ngModel)]="mail" name="mail">
+    <input type="text" id="password" required [(ngModel)]="password" name="password">
+  </p>
+  <p>
+    <button (click)="doActionLogin($event)">Loggin</button>
+    <button (click)="doActionLogout($event)">Logout</button>
+  </p>
+  <pre>
+    {{auth.getUser() | json}}
+  </pre>
+</form>
