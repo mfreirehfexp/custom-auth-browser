@@ -23,17 +23,6 @@ Para dejar por lista una version solamente se debe correr el archivo *commit.bat
 
     commit "Fixed Bugs"
 
-**Conexion MySQL**
-
-El proyecto viene con mysql y promise-mysql instalados, asi como clases armadas para la escritura SQL, para los datos de conexion se debe usar un archivo con nombre **".env"** (sin nada adelante del punto).
-
-Dentro de ese archivo se escriben las variables de entorno que luego pueden ser accedidas desde Node
-
-Ejemplo del archivo ".env"
-
-    MYSQL_USER=root
-    MYSQL_PASSWORD=pass
-    MYSQL_DATABASE=database
 
 
 ----------
